@@ -161,7 +161,7 @@ color: #404bbf;
 .header{
     border-bottom: 1px solid #e7e9fc;
 }
-.container{
+.header-container{
 display: flex;
     width: 1158px;
     margin: 0 auto;
@@ -211,13 +211,12 @@ display: flex;
     background-color: #4d5ae5;
     border-radius: 4px;
     cursor: pointer;
-    margin: 0 auto;
 }
 /* a doua sectiune */
 .skills-section {
     padding: 120px 0;
 }
-.container {
+.second-section-container{
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
