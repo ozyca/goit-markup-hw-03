@@ -158,10 +158,6 @@ color: #404bbf;
     letter-spacing: 0.02em;
 }
 /* first container */
-body {
-    font-family: 'Roboto', sans-serif;
-}
-
 img {
     display: block;
     max-width: 100%;
@@ -308,7 +304,7 @@ display: flex;
     row-gap: 48px;
 }
 .portfolio-item {
-    calc((100% - 48px) / 3);
+    calc ( (100% - 48px) / 3 );
 }
 .item-info {
     padding: 32px 16px;
