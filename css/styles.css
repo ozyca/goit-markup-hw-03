@@ -115,7 +115,7 @@ color: #404bbf;
     color: #434455;
 }
 /*section 4*/
-.our-portofolio-title{
+.our-portfolio-title{
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -294,17 +294,18 @@ display: flex;
     margin: 0 auto;
     padding: 0 15px;
 }
-.our-portofolio-title{
+.our-portfolio-title{
     margin-bottom: 72px;
 }
-.portofolio-list{
+.portfolio-list{
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
 }
-.portofolio-item {
-    width: calc((100% - 48px) / 3);
+.portfolio-item {
+    flex-basis: calc((100% - 3 * 24px) / 4);
+        border-radius: 0 0 4px 4px;
     }
 .item-info {
     padding: 32px 16px;
